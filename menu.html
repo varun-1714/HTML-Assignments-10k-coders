@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Menu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+            background-color: #f8f8f8;
+            text-align: center;
+        }
+        .menu-container {
+            display: flex;
+            justify-content: space-between;
+            max-width: 900px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .menu-left, .menu-right {
+            width: 45%;
+            text-align: left;
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        h2 {
+            background-color: #eee;
+            padding: 10px;
+            border-radius: 5px;
+            text-align: center;
+        }
+        .menu-item {
+            margin-bottom: 15px;
+        }
+        .vegan {
+            color: green;
+            font-weight: bold;
+        }
+        .menu-image {
+            margin-top: 20px;
+            text-align: center;
+        }
+        .menu-image img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <h1>MAIN MENU</h1>
+    <div class="menu-container">
+        <div class="menu-left">
+            <h2>STARTER</h2>
+            <div class="menu-item">
+                <strong>SEAFOOD CHOWDER</strong><br>
+                Rich, creamy chowder with haddock, scallops, clams, shrimp, and salmon.
+            </div>
+            <div class="menu-item">
+                <strong>MINESTRONE SOUP</strong><br>
+                A vegetable broth with tomatoes, eggplant, zucchini, and pasta. <span class="vegan">*VEGAN</span>
+            </div>
+            
+            <h2>MAINS</h2>
+            <div class="menu-item">
+                <strong>BEEF</strong><br>
+                Braised sirloin topped with a mushroom & peppercorn sauce, served with mashed potato and Chef’s vegetables.
+            </div>
+            <div class="menu-item">
+                <strong>SALMON</strong><br>
+                Seared salmon served on rice with Chef’s vegetables and bearnaise sauce.
+            </div>
+            <div class="menu-item">
+                <strong>CHICKEN</strong><br>
+                Roasted chicken supreme served with mashed potato, Chef’s vegetables, and a parmesan & basil cream sauce.
+            </div>
+        </div>
+        
+        <div class="menu-right">
+            <h2>MAINS</h2>
+            <div class="menu-item">
+                <strong>HADDOCK</strong><br>
+                Pan-seared haddock served on rice with a lemon garlic sauce and Chef’s vegetables.
+            </div>
+            <div class="menu-item">
+                <strong>VEGGIE</strong><br>
+                Slow-cooked vegetable curry with tofu and rice. <span class="vegan">*VEGAN</span>
+            </div>
+            
+            <h2>DESSERT</h2>
+            <div class="menu-item">
+                <strong>DEATH BY CHOCOLATE</strong><br>
+                Dark chocolate cake layered with dark chocolate truffle mousse.
+            </div>
+            <div class="menu-item">
+                <strong>NEW YORK CHEESECAKE</strong><br>
+                Topped with raspberry sauce, chocolate drizzle, and a dollop of whipped cream.
+            </div>
+            <div class="menu-item">
+                <strong>COCONUT CREAM TART</strong><br>
+                Short crust pastry shell filled with smooth coconut custard, topped with fresh whipped cream and toasted coconut.
+            </div>
+        </div>
+    </div>
+    <div class="menu-image">
+        <img src="https://source.unsplash.com/900x400/?food,restaurant" alt="Delicious Food Menu">
+    </div>
+</body>
+</html>
